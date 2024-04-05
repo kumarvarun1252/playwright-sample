@@ -14,7 +14,7 @@ test.describe('Google home page tests', () => {
 
         const homePage = new HomePage(page);
         await homePage.open();
-        await homePage.search('Vikash Chauhan on github');
+        await homePage.search('Varun Mukka on github');
     });
 
 })
